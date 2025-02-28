@@ -29,9 +29,9 @@ void main() async {
   }
 
   await Supabase.initialize(
-    url: 'https://ptfaqewjxwzbzvyskjfx.supabase.co',
+    url: '',
     anonKey:
-        'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InB0ZmFxZXdqeHd6Ynp2eXNramZ4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDA1NDk1ODgsImV4cCI6MjA1NjEyNTU4OH0.ioY0tD0O7JsTMOsD3pUext8eiTZFC1mTXZzwJp_IPHo',
+        '',
   );
 
   runApp(MyApp());
