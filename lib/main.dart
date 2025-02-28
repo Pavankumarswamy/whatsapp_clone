@@ -15,14 +15,14 @@ void main() async {
   if (kIsWeb) {
     await Firebase.initializeApp(
       options: FirebaseOptions(
-          apiKey: "AIzaSyB225xc7dPPgOf-6r5iuArVSJFvkDLCh_0",
-          authDomain: "whatsup-519.firebaseapp.com",
-          databaseURL: "https://whatsup-519-default-rtdb.firebaseio.com",
-          projectId: "whatsup-519",
-          storageBucket: "whatsup-519.firebasestorage.app",
-          messagingSenderId: "40609200098",
-          appId: "1:40609200098:web:2f1bee06f9b5b589baabbb",
-          measurementId: "G-81G471WE08"),
+          ///
+          /
+          /
+          /
+          /
+          /
+          /
+          
     );
   } else {
     await Firebase.initializeApp();
